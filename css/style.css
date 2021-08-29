@@ -1,22 +1,29 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+
 }
 
-body{
-    font-family:  'SF Pro Display';
+body {
+  font-family: "SF Pro Display";
 }
 
-.container{
-    max-width: 1195px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+.container {
+  max-width: 1195px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .header__nav{
     height: 80px;
@@ -139,8 +146,6 @@ body{
     transform: scale(1.2);
 }
 
-
-
 .umar__agrmny{
     width: 165px;
     height: 50px;
@@ -207,7 +212,112 @@ body{
     display: none;
 }
 
+.abdulhakim {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 109px;
+  margin-bottom: 26px;
+}
+
+.img{
+    max-width: 100%;
+}
+
+.abdulhakim__dohtir {
+    display: flex;
+    gap: 79px;
+}
+
+.abdulhakim__telfon{
+    display: flex;
+    gap: 286px;
+}
+
+.abdulhakim__sport{
+    display: flex;
+    gap: 94px;
+}
+
+.malaka{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shifokor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.df{
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+    gap: 27px;
+}
+
+.shartlar{
+    font-family: "SF Pro Display";
+    font-weight: 400;
+    font-size: 48px;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.abdulhakim__dohtir-son{
+    font-family: "SF Pro Display";
+    font-weight: 400;
+    font-size: 64px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.abdulhakim__dohtir-malaka{
+    font-family: "SF Pro Display";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0D1C41;
+}
+
+.abdulhakim__telfon-shifokor{
+    font-family: "SF Pro Display";
+    font-weight: 600;
+    font-size: 29px;
+    letter-spacing: -0.28px;
+}
+
+.abdulhakim__telfon-rossiya{
+    font-family: "SF Pro Display";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0D1C41;
+}
+
+.pul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.abdulhakim__sport-pul{
+    font-family: "SF Pro Display";
+    font-weight: 400;
+    font-size: 64px;
+    color: red;
+    margin-bottom: 7px;
+}
+.abdulhakim__sport-jami{
+    font-family: "SF Pro Display";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0D1C41;
 
 .up:hover .down{
 display: block;
+
 }
