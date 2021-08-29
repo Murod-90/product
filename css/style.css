@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
 body{
@@ -16,6 +18,103 @@ body{
     padding-left: 15px;
     padding-right: 15px;
 }
+.header__nav{
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(49, 60, 72, 0.05);
+}
+.header__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+    margin-top: 12px;
+}
+.header__list{
+    display: flex;
+    justify-content: space-between;
+}
+.header__link{
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    margin-left: 50px;
+}
+.header__link:hover{
+    font-weight: 700;
+}
+.header__contact{
+    display: flex;
+}
+.header__number{
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+}
+
+.header__account{
+    display: flex;
+    font-weight: 400;
+    font-size: 18px;
+    color: #0D1C41;
+    margin-left: 54px;
+    align-items: center;
+}
+
+.header__account>i{
+    font-size: 28px;
+    margin-left: 15px;
+}
+
+.header__content{
+    width:1165px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: 500px;
+    background: #fff;
+    box-shadow: 2px 2px 5px rgba(20, 29, 61, 0.15), -2px -2px 5px rgba(20, 29, 61, 0.15);
+    border-radius: 30px;
+    display: flex;
+}
+.header__texts{
+    margin-left: 98px;
+}
+.header__title{
+    font-weight: 600;
+    font-size: 36px;
+    width: 485;
+    margin-top: 124px;
+    margin-bottom: 24px;
+    
+}
+.weight_400{
+    font-weight: 400;
+}
+.header__text{
+    width: 365px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #939CA6;
+}
+.header__btn{
+    margin-top: 92px;
+    width: 265px;
+    height: 60px;
+    background: #fff;
+    border: #000 1px solid;
+    border-radius: 6px;
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .umar__item{
     font-style: normal;
@@ -93,10 +192,22 @@ body{
     color: black;
 }
 
+.up{
+    position: relative;
+    
+}
+
+.down{
+    position: absolute;
+    min-height: 50px;
+    width: 50px;
+    background: rgba(0, 0, 0, 0.281);
+    right: 30%;
+    border-radius: 5px;
+    display: none;
+}
 
 
-
-
-
-
-
+.up:hover .down{
+display: block;
+}
