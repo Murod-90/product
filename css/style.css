@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    font-family:  'SF Pro Display';
+body {
+    font-family: 'SF Pro Display';
 }
 
-.container{
+.container {
     max-width: 1195px;
     width: 100%;
     margin-left: auto;
@@ -17,4 +17,66 @@ body{
     padding-right: 15px;
 }
 
+.javohir {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+
+.javoxir__big_div {
+    display: flex;
+
+}
+
+.javoxir__h1 {
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.javoxir__items {
+    width: 165px;
+    height: 165px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-right: 28px;
+    margin-top: 48px;
+    box-shadow: 3px 3px 2px black;
+}
+
+.javoxir__items:hover {
+    box-shadow: -2px 7px 18px -5px rgba(48, 45, 38, 0.3);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.iconn {
+    font-size: 54px;
+    color: black;
+    align-self: center;
+    margin-top: 32px;
+
+}
+
+.javoxir__a {
+    text-decoration: none;
+
+    
+
+}
+
+.javoxir__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.porograf__text {
+    text-decoration: none;
+    color: black;
+}
 
